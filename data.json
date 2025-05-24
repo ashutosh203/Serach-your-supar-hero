@@ -1,0 +1,37 @@
+[
+    {
+        "name": "IRON MAN",
+        "age": "35",
+        "description": "CRAZY SCIENTIST",
+        "Power": "LASER",
+        "img": "https://pngimg.com/d/ironman_PNG44.png"
+    },
+    {
+        "name": "THOR",
+        "age": "32",
+        "description": "GOD OF THUNDER",
+        "Power": "LIGHTNING",
+        "img": "https://www.pngplay.com/wp-content/uploads/8/Thor-Avengers-Transparent-Image.png"
+    },
+    {
+        "name": "HULK",
+        "age": "40",
+        "description": "GREEN MAN",
+        "Power": "MONSTER",
+        "img": "https://preview.redd.it/qxnwf5vpi7271.png?width=1080&crop=smart&auto=webp&s=6e7ed995df2e185b5e4a9ac734d05015d12f6e9c"
+    },
+    {
+        "name": "CAPTAIN AMERICA",
+        "age": "35",
+        "description": "SOLDIER",
+        "Power": "SHEILD",
+        "img": "https://www.sideshow.com/cdn-cgi/image/width=500,quality=80,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-silo_md.png"
+    },
+    {
+        "name": "SPIDER MAN",
+        "age": "20",
+        "description": "PHYSICS STUDENT",
+        "Power": "SPIDER WEB",
+        "img": "https://www.pngarc.com/wp-content/uploads/2023/06/Marvel-Spider-Man-background-png-image-1-min.png"
+    }
+]

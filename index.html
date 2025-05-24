@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="particles-js" class="particles-js"></div>
+      <div class="container" id="container">
+        <h2 class="Login">Login</h2>
+        <form action="">
+          <div class="input-group">
+            <label for="username">Username</label>
+            <input
+              placeholder="Enter your username example: Ashutosh"
+              type="text"
+              id="username"
+              name="username"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input
+              placeholder="Enter your password example:123 "
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+          </div>
+          <button type="submit" class="btn" id="Login-button">Login</button>
+          <p class="message">
+            Not registered? <a href="#">Create an account</a>
+          </p>
+        </form>
+      </div>
+      <div class="super-hero-section" id="super-hero-section">
+        <h2 class="hero">Search your super Hero</h2>
+        <form>
+          <div class="input-group hero-input">
+            <label for="superhero" >Super Hero</label>
+            <input
+              placeholder="Enter your super hero name example: Ironman.. "
+              type="text"
+              id="superhero"
+              value="IRON MAN"
+              required
+            />
+          </div>
+          <button type="submit" class="btn" id="search-Super-hero-btn">
+            Search
+          </button>
+        </form>
+      </div>
+
+      <div class="hero-details-here">
+        <h1 id="name"></h1>
+        <h2>age :<span id="age"></span></h2>
+        <h2>Power: <span id="Power"></span></h2>
+        <h3>description: <span id="description"></span></h3>
+        <div class="image">
+          <img
+            id="image"
+            src="./WhatsApp Image 2025-04-04 at 9.24.37 PM.jpeg"
+          />
+        </div>
+        <button id="Go_back_btn">Back to search</button>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
